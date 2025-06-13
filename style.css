@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    overflow: hidden;
+    background: #80f080;
+    border: 2px solid black;
+}
+
+#main-canvas {
+    width: 100%;
+    height: auto;
+    display: block;
+    border: 5px solid black;
+    background: #a3badd;
+}
