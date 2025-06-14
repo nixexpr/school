@@ -5,5 +5,4 @@ services:
     ports:
       - "80:80"
     volumes:
-      - ./Caddyfile:/etc/caddy/Caddyfile
       - ./html:/usr/share/caddy
