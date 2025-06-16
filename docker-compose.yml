@@ -1,8 +1,7 @@
 services:
   caddy:
-    image: caddy:latest  
+    build: .
     restart: unless-stopped  
     ports:
       - "80:80"
-    volumes:
-      - ./html:/usr/share/caddy
+
